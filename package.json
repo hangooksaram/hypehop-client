@@ -31,36 +31,16 @@
     "editorjs-text-color-plugin": "^2.0.4",
     "he": "^1.2.0",
     "html2canvas": "^1.4.1",
-    "http-proxy-middleware": "^2.0.6",
     "next": "^16.0.7",
     "react": "^19.1.1",
     "react-device-detect": "^2.2.3",
-    "react-dom": "^19.1.1",
-    "web-vitals": "^2.1.4"
+    "react-dom": "^19.1.1"
   },
   "scripts": {
     "start": "next start",
     "build": "next build",
     "lint": "npx eslint src/",
     "dev": "next dev"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
